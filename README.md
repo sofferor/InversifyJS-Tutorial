@@ -1,8 +1,8 @@
-![](https://miro.medium.com/max/1000/1*_PlNVlMMfdeCLOgCAR59EQ.png)
-# typescript-helloworld
-This is an example project for the [Simple setup for your TypeScript project](https://medium.com/@bromix/simple-setup-for-your-typescript-project-d96f66113b41) article on [medium.com](https://medium.com)
+# InversifyJS-Tutorial
+his project is a tutorial for building a Server Side Application with a InversifyJS.
+The Tutorial is from https://medium.com/tkssharma/dependency-injection-setting-up-inversifyjs-ioc-for-typescript-apps-da65edfb1ea8
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
@@ -10,4 +10,9 @@ npm install
 ### Compile to typescript
 ```
 npm run build
+```
+
+### Run without compilation
+```
+npx ts-node src/index.ts
 ```
